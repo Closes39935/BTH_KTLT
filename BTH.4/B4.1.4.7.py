@@ -1,0 +1,5 @@
+print("Nguyen Van An")
+print("Msv:235752021610082")
+chuoi = input("Nhập chuỗi: ")
+chuoi_khong_chu_so = ''.join([char for char in chuoi if not char.isdigit()])
+print(chuoi_khong_chu_so)
